@@ -6,6 +6,9 @@ A computer application for everyone who wants freedom in creation
 ## A moral and true to reality crediting system
 **Atelam** will offer freedom of expression and creation by featuring a crediting system who benefits both the original creators and passionate fans as well.
 
+### Why?
+Because people need to create content freely without worrying about Cease and Desist letters and legal headaches. Because, realistically speaking, we might run out of original intellectual properties and, given the fact that more and more people have access to creation and publishing tools, this might happen one day, maybe sooner than some of us might expect. And I, the initiator of this project, believe that this is not just a quality of life application, but an early solution to a possibly imminent problem.
+
 ### How?
 - The copyright system will feature revenue splitting based on relevancy metrics assessed by multiple parties. Based on these relevancy metrics the in-app created revenue will be split between the [IP](https://en.wikipedia.org/wiki/Intellectual_property) holders and the entities who created content based on the IP.
 - The relevancy metrics will measure the influence that each IP has on the remixed content. It is important to keep in mind that this metric will only be affected by relevancy, not by the amount of appearances of a certain IP, or such other metrics. It is also important to mention that the relevancy score might not necessarily reflect the legal necessity or nonnecessity for a revenue split, however the relevancy metric aims to reflect that as good as possible.
@@ -32,5 +35,10 @@ A computer application for everyone who wants freedom in creation
 **Atelam** will feature a recycle system that will automatically remove the un-interacted-with files after a certain time. The condition of removal is simple - the cost of uploading some data coincides with the cost of keeping that data on the server for a certain amount of time. Let's assume that the data with the size *x* has the same cost of uploading it as keeping it on the server for *y* time units (those can be days, seconds, weeks etc). If no one interacts with the file for a certain, let's say, *z* amount of time then the file will be removed from the server. It will be assumed that if one has no interest in that file for *z* time it will, probably, not have interest in the file for, at least, the upcoming *y* amount of time. And if the assumption is right, worst case scenario is that the user will again upload the file after the *y* amount of time that it missed, essentially costing as if the file was kept on the server in that *y* amount of time when it was actually missing.
 For example: someone uploads a on the 1st of March a video and its cost of upload is the same cost as keeping it on the server for approx a month. No one watches the video after it is uploaded. Stats say that if no one interacts with a video of that size for 2 months, the chances are they won't interact with it for another 1 month. This means that the video is removed from the platform on the 1st of May. If the user uploads the video again in May then the platform will gain a loss. If the user uploads the video again on the 1st of June, then basically the platform will gain neither a surplus nor a loss. If the video is uploaded again after the 1st of June, the platform will gain a cost surplus.
 
+# Current Features
+
+## A very very very rough website
+The website is currently in its very early stages. If you made it this far please consider developing it towards the vision stated.
+
 # The name
-The name is still undecided, however, I believe that the name should be something simple and memorable.
+The name is still undecided, however, I believe that the naming should represent something simple and memorable.
