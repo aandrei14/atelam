@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="main.js"></script>
+
+    <title>Atelam</title>
+</head>
+<body>
+    <h1>Log into your account</h1>
+
+    <nav>
+        <h4>Atelam</h4>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/create_account">Create Account</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <form action="/auth/login" method="POST">
+            <label for="username">Your username</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Your password</label>
+            <input type="password" id="password" name="password">
+
+            <button type="submit">Login Into Account</button>
+        </form>
+
+        {{#if message}}
+            <h4>{{message}}</h4>
+        {{/if}}
+    </div>
+
+</body>
+</html>
