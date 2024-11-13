@@ -1,3 +1,6 @@
+# IF YOU ARE NEW TO PROGRAMMING YOU CAN STILL USE THIS CODE.
+# JUST GOOGLE "PYTHON ONLINE" AND PASTE THIS CODE IN ONE OF THE SITES.
+
 nubmerOfIPHolders = int(input('The number of IP holders is... '))
 
 ipHoldersInfluenceScore = list()
